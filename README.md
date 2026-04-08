@@ -20,7 +20,7 @@ Library: Pandas
 💻 실행 예시
 Python
  'Glioblastoma' 질환을 검색할 경우
-print(biological_rag_system("Glioblastoma"))
+'''python print(biological_rag_system("Glioblastoma"))'''
 
  [출력 결과]
  - 추천 모델: Orthotopic brain tumor model
