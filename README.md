@@ -62,3 +62,23 @@ print(biological_rag_system("Glioblastoma"))
 Efficiency: Automated the tedious process of manually filtering Excel sheets for specific research data.
 
 Accuracy: Improved search precision by utilizing string manipulation functions to handle inconsistent data entries.
+
+
+
+	Title	Abstract	Disease	Model	Species	Key Target	Keywords
+1	"Dual suppression of stemness and redox adaptation in glioblastoma through filaggrin upregulation by an abiraterone-based HDAC inhibitor
+(PMID: 41943081)"	"Mechanism:
+1. cp8 -> FLG upregulation -> MGMT suppression
+2. HDAC6 inhibition"	TMZ-resistant Glioblastoma	Orthotopic brain tumor model (Intracranial implantation)	Mouse (C57BL/6J, NOD/SCID), Rat (Sprague-Dawley)	FLG(Filaggrin), MGMT, HDAC6	glioblastoma, TMZ resistance, HDAC inhibitor, FLG, MGMT, redox adaptation
+2	"Aquaporin 9 regulates acetaldehyde uptake, alcohol-induced liver injury, and drinking behavior
+(PMID: 41941046)"	"Hepatic AQP9 expression is downregulated in ALD patients
+AQP9 knockout improved early-stage ALD by reducing hepatic lipogenesis, lipid peroxidation, and inflammation"	Alcohol-associated liver disease	Aqp9 global knockout (KO), Aldh2*2 knock-in (KI), Aqp9 KO x Aldh2*2 KI (KOKI)	"Mouse (C57BL/6J)
+"	AQP9, AQP8, ALDH2, Acetaldehyde (AcH)	cetaldehyde; alcohol‐associated liver disease (ALD); aquaporin 9 (AQP9); drinking behavior; ethanol metabolism.
+3	"Long non-coding RNA profiling of hypertrophic cardiomyopathy in mice 
+(PMID: 41942516)"	Transcriptome-wide analysis identified differentially expressed lncRNAs in HCM across human and mouse models, providing candidate regulators of pathological hypertrophy.	Hypertrophic cardiomyopathy	TNNT2 ∆160 mutation mouse model (HCM model)	Mouse (C57BL/6J)	IncRNAs (differentially expressed in HCM)	IncRNAs, Hypertrophic cardiomyopathy (HCM), transcription
+4	"A refined chronic MPTP/probenecid model of Parkinson's disease in mature adult mice 
+(PMID: 41941954)"	"A refined chronic low-dose MPTP/probenecid (MPTP/p) regimen was developed to model progressive Parkinson's disease (PD) in mice.
+MPTP/p recapitulate the gradual emergence of motor, cognivitve. and neuropathological hallmarks of PD, while maintaining animal survival rate"	Parkinson's disease	chronic low-dose MPTP/probenecid model	Mouse (C57BL/6J)	Dopaminergic neurous, Tyrosine hydroxylase, α-synuclein (phosphorylated)	Chronic regimen; MPTP; Mouse model; Parkinson's disease.
+5	"Zanthoxylum bungeanum essential oil alleviates DSS-induced ulcerative colitis in mice by modulating gut microbiota-dependent AhR/Nrf2 signaling 
+(PMID: 41942225)"	Zanthoxylum bungeanum essential oil (ZBO) attenuates DSS-induced ulcerative colitis by suppressing pro-inflammatory mediators and enhancing intestinal barrier function. Its therapeutic effect is mediated through modulation of gut microbiota and activation of the AhR/Nrf2 signaling pathway	Ulcerative colitis	DSS-induced ulcerative colitis model	Mouse (C57BL/6J)	lL-6, IL-1ß, TNF-α, CCL20, AhR/Nrf2 signaling pathway, Gut microbiota	AhR/Nrf2 signaling pathway; Gut microbiota; Intestinal barrier; Ulcerative colitis; Zanthoxylum bungeanum.<img width="1788" height="385" alt="image" src="https://github.com/user-attachments/assets/12ca4b08-6e64-4a1e-ba4d-97047b7a3113" />
+
