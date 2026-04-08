@@ -11,7 +11,7 @@ Language: Python
 Library: Pandas
 
 📂 주요 기능
-데이터 로드 및 표준화: pd.read_excel을 이용해 데이터를 읽어오고, 분석하기 쉽게 컬럼 이름을 재정의했습니다.
+데이터 로드 및 표준화: ```pythonpd.read_excel```을 이용해 데이터를 읽어오고, 분석하기 쉽게 컬럼 이름을 재정의했습니다.
 
 조건부 검색 로직: Disease와 Key Target 컬럼에서 대소문자 구분 없이(case=False) 키워드를 포함하는 모든 행을 찾습니다.
 
@@ -30,7 +30,7 @@ Python
 🎯 프로젝트 성과
 데이터 탐색 효율화: 수작업으로 엑셀을 필터링하는 번거로움을 자동화했습니다.
 
-정밀한 검색: 문자열 처리 함수(.str.strip(), .contains())를 활용해 데이터의 노이즈를 제거하고 검색 정확도를 높였습니다.
+정밀한 검색: 문자열 처리 함수(```python.str.strip(), .contains()```)를 활용해 데이터의 노이즈를 제거하고 검색 정확도를 높였습니다.
 
 
 
@@ -47,14 +47,14 @@ Library: Pandas
 📂 Key Features
 Data Loading & Standardization: Uses pd.read_excel to load datasets and redefines column names for better data structure and accessibility.
 
-Conditional Search Logic: Implements a search function that scans both Disease and Key Target columns. It handles data noise using .str.strip() and ensures case-insensitive matching with case=False.
+Conditional Search Logic: Implements a search function that scans both Disease and Key Target columns. It handles data noise using ```python.str.strip()``` and ensures case-insensitive matching with ```pythoncase=False```.
 
 Automated Reporting: Summarizes complex row data into a clean, readable report format including Recommended Model, Mechanism, Primary Target, and Evidence.
 
 💻 Usage Example
 Python
  Searching for 'Glioblastoma'
-print(biological_rag_system("Glioblastoma"))
+```pythonprint(biological_rag_system("Glioblastoma"))```
 
  [Output]
  - Recommended Model: Orthotopic brain tumor model
