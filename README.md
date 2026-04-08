@@ -16,14 +16,14 @@ Library: Pandas
 
 💻 실행 예시
 Python
-# 'Glioblastoma' 질환을 검색할 경우
+ 'Glioblastoma' 질환을 검색할 경우
 print(biological_rag_system("Glioblastoma"))
 
-# [출력 결과]
-# - 추천 모델: Orthotopic brain tumor model
-# - 핵심 기전: cp8 -> FLG upregulation -> MGMT suppression
-# - 주요 타겟: FLG(Filaggrin), MGMT, HDAC6
-# - 근거 논문: Dual suppression of stemness and redox adaptation...
+ [출력 결과]
+ - 추천 모델: Orthotopic brain tumor model
+ - 핵심 기전: cp8 -> FLG upregulation -> MGMT suppression
+ - 주요 타겟: FLG(Filaggrin), MGMT, HDAC6
+ - 근거 논문: Dual suppression of stemness and redox adaptation...
 🎯 프로젝트 성과
 데이터 탐색 효율화: 수작업으로 엑셀을 필터링하는 번거로움을 자동화했습니다.
 
@@ -50,14 +50,14 @@ Automated Reporting: Summarizes complex row data into a clean, readable report f
 
 💻 Usage Example
 Python
-# Searching for 'Glioblastoma'
+ Searching for 'Glioblastoma'
 print(biological_rag_system("Glioblastoma"))
 
-# [Output]
-# - Recommended Model: Orthotopic brain tumor model
-# - Key Mechanism: cp8 -> FLG upregulation -> MGMT suppression
-# - Primary Target: FLG(Filaggrin), MGMT, HDAC6
-# - Evidence: Dual suppression of stemness and redox adaptation...
+ [Output]
+ - Recommended Model: Orthotopic brain tumor model
+ - Key Mechanism: cp8 -> FLG upregulation -> MGMT suppression
+ - Primary Target: FLG(Filaggrin), MGMT, HDAC6
+ - Evidence: Dual suppression of stemness and redox adaptation...
 🎯 Project Impact
 Efficiency: Automated the tedious process of manually filtering Excel sheets for specific research data.
 
